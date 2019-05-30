@@ -30,7 +30,7 @@ int ttime = 0;
 
 void dfs(int u, int par){
 
-	minarks[u] = true;
+	marks[u] = true;
 	dtime[u] = low_dtime[u] = ++ttime;
 	 
 
